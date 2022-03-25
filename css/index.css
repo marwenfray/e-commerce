@@ -52,7 +52,9 @@ nav{
     margin-bottom: 20px;
 }
 .products{
-    border: 0;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
 }
 .productCard{
     background-color: #DADDFC;
@@ -62,6 +64,7 @@ nav{
     margin:5px;
     border-top-left-radius: 50px;
     border-bottom-right-radius: 50px;
+    float: left;
     
 }
 .productCard>img{
