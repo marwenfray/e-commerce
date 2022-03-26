@@ -119,4 +119,20 @@ nav {
 .category {
   width: 100%;
   text-align: center;
+  background-color: #daddfc;
+font-size: 30pt;
+color: #1c2d3f;
+font-family: 'Ubuntu', sans-serif;
+}
+footer{
+    background-color: #2e4c6d;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+footer span{
+    font-size: 20pt;
+    font-weight: bold;
+    margin-top: auto;
+    margin-bottom: auto;
 }
